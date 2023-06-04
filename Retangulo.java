@@ -1,6 +1,5 @@
-
 public class Retangulo {
-	
+
 	protected int comprimento;
 	protected int largura;
 	protected int area;
@@ -13,19 +12,20 @@ public class Retangulo {
 		perimetro = 2 * comprimento + 2 * largura;
 	}
 	
+
 	public int getArea() {
 		return area;
 	}
-	
+
 	public int getPerimetro() {
 		return perimetro;
 	}
-	
+
 	public void setComprimento(int comprimento, int largura) {
 		this.comprimento = comprimento;
 		this.largura = largura;
 	}
-	
+
 	public String toString() {
 		return "Area: " + area + " || Perimetro: " + perimetro;
 	}
